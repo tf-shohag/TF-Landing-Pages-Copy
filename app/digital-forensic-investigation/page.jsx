@@ -13,6 +13,7 @@ import WhyRightMatchSection from './_components/WhyRightMatchSection'
 import SecurityActions from './_components/SecurityActions'
 import FAQSection from './_components/FaqSection'
 import Footer from './_components/Footer'
+import ScriptIntegration from './ScriptIntegration'
 
 const DigitalForensicInvestigation = () => {
   return (
@@ -31,6 +32,7 @@ const DigitalForensicInvestigation = () => {
       <SecurityActions />
       <FAQSection />
       <Footer />
+      <ScriptIntegration />
     </div>
   )
 }

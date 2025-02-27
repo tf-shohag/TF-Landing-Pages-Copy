@@ -11,10 +11,10 @@ const Footer = () => {
       </Head>
 
       {/* Bitrix24 Script */}
-      <Script
+      {/* <Script
         strategy="lazyOnload"
         src="https://cdn.bitrix24.com/b15773863/crm/site_button/loader_310_wozrt0.js"
-      />
+      /> */}
 
       <footer className="w-full border-t-2 border-t-secondary">
         {/* Certifications Section */}

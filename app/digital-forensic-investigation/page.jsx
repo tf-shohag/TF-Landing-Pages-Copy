@@ -1,3 +1,4 @@
+
 import React from 'react'
 import Header from './_components/Header'
 import Hero from './_components/Hero'
@@ -15,12 +16,12 @@ import FAQSection from './_components/FaqSection'
 import Footer from './_components/Footer'
 import ScriptIntegration from './ScriptIntegration'
 
-const DigitalForensicInvestigation = () => {
+const DigitalForensicInvestigation =  () => {
   return (
     <div className='text-black overflow-hidden'>
       <Header />
       <Hero />
-      {/* <ServicesSection />
+      <ServicesSection />
       <ForensicServices />
       <ForensicTypes />
       <TestimonialSection />
@@ -32,7 +33,7 @@ const DigitalForensicInvestigation = () => {
       <SecurityActions />
       <FAQSection />
       <Footer />
-      <ScriptIntegration /> */}
+      <ScriptIntegration />
     </div>
   )
 }

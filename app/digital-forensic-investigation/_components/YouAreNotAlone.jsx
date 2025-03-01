@@ -31,63 +31,7 @@ const YouAreNotAlone = () => {
 
                     {/* Video Controls */}
                     <div className="absolute bottom-0 left-0 right-0 bg-black/30 p-2 flex items-center">
-                        <button className="mr-2 text-white">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M10 4H6V20H10V4Z" fill="white" />
-                                <path d="M18 4H14V20H18V4Z" fill="white" />
-                            </svg>
-                        </button>
-                        <button className="mr-2 text-white">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M5 4L15 12L5 20V4Z" fill="white" />
-                                <path d="M19 5V19" stroke="white" strokeWidth="2" />
-                            </svg>
-                        </button>
-                        <button className="mr-2 text-white">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M11 5.00001C11 3.34315 9.65685 2 8 2C6.34315 2 5 3.34315 5 5.00001C5 6.65687 6.34315 8.00001 8 8.00001C9.65685 8.00001 11 6.65687 11 5.00001Z" fill="white" />
-                                <path d="M5 14V21H11V14C11 11.7909 9.20914 10 7 10C4.79086 10 3 11.7909 3 14H5Z" fill="white" />
-                                <path d="M13 5H21V7H13V5Z" fill="white" />
-                                <path d="M13 9H21V11H13V9Z" fill="white" />
-                                <path d="M13 13H21V15H13V13Z" fill="white" />
-                                <path d="M13 17H21V19H13V17Z" fill="white" />
-                            </svg>
-                        </button>
-                        <div className="flex-grow mx-2">
-                            <div className="h-1 bg-gray-500 rounded-full overflow-hidden">
-                                <div className="h-full bg-white w-1/3 rounded-full"></div>
-                            </div>
-                        </div>
-                        <span className="text-white text-sm mr-2">1:15/3:05</span>
-                        <button className="mr-2 text-white">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M12 8C16.4183 8 20 11.5817 20 16H18C18 12.6863 15.3137 10 12 10V8Z" fill="white" />
-                                <path d="M12 4C18.6274 4 24 9.37258 24 16H22C22 10.4772 17.5228 6 12 6V4Z" fill="white" />
-                                <path d="M10 16C10 14.8954 9.10457 14 8 14C6.89543 14 6 14.8954 6 16C6 17.1046 6.89543 18 8 18C9.10457 18 10 17.1046 10 16Z" fill="white" />
-                            </svg>
-                        </button>
-                        <button className="mr-2 text-white">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M10.5 4.5H13.5V19.5H10.5V4.5Z" fill="white" />
-                                <path d="M4.5 10.5H19.5V13.5H4.5V10.5Z" fill="white" />
-                            </svg>
-                        </button>
-                        <button className="mr-2 text-white">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="3" y="3" width="8" height="8" fill="white" />
-                                <rect x="13" y="3" width="8" height="8" fill="white" />
-                                <rect x="3" y="13" width="8" height="8" fill="white" />
-                                <rect x="13" y="13" width="8" height="8" fill="white" />
-                            </svg>
-                        </button>
-                        <button className="text-white">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M7 14H5V19H10V17H7V14Z" fill="white" />
-                                <path d="M5 10H7V7H10V5H5V10Z" fill="white" />
-                                <path d="M17 17H14V19H19V14H17V17Z" fill="white" />
-                                <path d="M14 5V7H17V10H19V5H14Z" fill="white" />
-                            </svg>
-                        </button>
+                        <video src='https://d11n7da8rpqbjy.cloudfront.net/techforing/20661966_1624877197137TechForing_Testimonial_by_Joseph_Ke.mp4' controls/>
                     </div>
                 </motion.div>
 

@@ -115,9 +115,9 @@ const WhyRightMatchSection = () => {
                 </div>
 
                 {/* Right side: Images and Media Logos */}
-                <div className="space-y-8">
+                <div className="space-y-8 lg:space-y-16">
                     {/* Team Images */}
-                    <div className="grid grid-cols-2 gap-4">
+                    <div className="grid grid-cols-2 gap-4 md:gap-12">
                         {ceoImages.map((image, index) => (
                             <motion.div
                                 key={index}
@@ -136,7 +136,7 @@ const WhyRightMatchSection = () => {
                                         width={227}
                                     />
                                 </div>
-                                <p className="text-sm text-gray-600 p-4 text-center max-w-[250px]">Lorem ipsum dolor sit amet consectetur</p>
+                                {/* <p className="text-sm text-gray-600 p-4 text-center max-w-[250px]">Lorem ipsum dolor sit amet consectetur</p> */}
                             </motion.div>
                         ))}
                     </div>

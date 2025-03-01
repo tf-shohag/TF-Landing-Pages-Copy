@@ -10,8 +10,8 @@ const Footer = () => {
         <title>Footer | TechForing</title>
       </Head>
 
-      {/* Bitrix24 Script */}
-      {/* <Script
+      {/* Bitrix24 Script
+      <Script
         strategy="lazyOnload"
         src="https://cdn.bitrix24.com/b15773863/crm/site_button/loader_310_wozrt0.js"
       /> */}

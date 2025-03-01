@@ -6,24 +6,24 @@ import { motion, useInView } from 'framer-motion';
 const testimonials = [
   {
     id: 1,
-    content: "These are some super talented bunch of people! Though costly, they managed to help me bypass the URLs anti-virus was constantly flagging. I really needed those URLs operational. At first I was not sure whether the price was worth it. Thankfully I went on with it. and they didnt disappoint.",
-    name: "First Last",
-    location: "Location, Company",
-    image: "/avatar1.jpg"
+    content: "The guys in the team are extremely efficient and very humble. Kept me posted and helped me learn about lots of security related things. I never needed to do pen-testing. It really is an effective tool for companies like ours. If you are looking for reliability, Techforing is a Go-to! Try them! ",
+    name: "ERIC HO",
+    location: "Staff Software Engineer, RippleMatch ( ECUADOR )",
+    image: "/dfi/eric-ho.webp"
   },
   {
     id: 2,
-    content: "Wanted to find out about all my digital trace and remove any personal information that is out there. They got me what I needed. Dont know how they did it. But they managed to gather some vital intelligence. Surely, it's not the 1st time I will be hiring them. Gotta work together again soon!",
-    name: "First Last",
-    location: "Location, Company",
-    image: "/avatar2.jpg"
+    content: "One of my crucial websites was showing ominous signs. We were being suspicious. Thankfully, we didn’t waste time and immediately asked my subordinate to look for somebody. He got us with Techforing. They did a thorough job and made some recommendations. I will definitely work with them again. As he pointed at security holes, no other tech had pointed out before. Thank you, Techforing!",
+    name: "ISRAEL SANCHEZ...",
+    location: "CEO, Integrated Healing and Strength Systems, Inc. ( USA )",
+    image: "/dfi/israel-sunchez.webp"
   },
   {
     id: 3,
-    content: "My cryptocurrency got stolen despite it's deemed to be pretty secure. I can understand things happen! Tried law enforcement but got no help, then hired the Techforing team to get my funds back. They traced back the hacker and forced him return the cash with the same value of lost crypto. Excellent job indeed!",
-    name: "First Last",
-    location: "Location, Company",
-    image: "/avatar3.jpg"
+    content: "Our website needed a risk assessment. TechForing Engineers are a pro in that. They did everything needed to get the job done. Guys are content and I got my peace of mind. Thanks TechForing. ",
+    name: "EDDIE MURGIC",
+    location: "President and CEO, Traveloko, LLC. ( USA )",
+    image: "/dfi/murgic.webp"
   }
 ];
 
